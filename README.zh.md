@@ -6,12 +6,12 @@
 
 <div align="center">
 
-[\[💻Code\]](https://sh-code.mthreads.com/liang.yang/mt-gui)[\[📝Paper\]](https://arxiv.org/abs/2503.11170) [\[🤗Models\]](https://huggingface.co/caca9527/GUIExplorer)[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)  
+[\[💻Code\]](https://github.com/MooreThreads/GUIExplorer)[\[📝Paper\]](https://arxiv.org/abs/2503.11170) [\[🤗Models\]](https://huggingface.co/caca9527/GUIExplorer)[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)  
 
 </div>
 
 ## 🤗 项目概述  
-![GUIExplorer](https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/overview.png?ref_type=heads){:height="60%" width="60%"}
+![GUIExplorer](https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/overview.png?ref_type=heads){:height="60%" width="60%"}
 
 🔥🔥🔥 我们开源了自研的GUI多模态视觉理解大模型GUIExplorer以及用于训练该模型的DeskVision部分数据集（完整数据集正在整理并给出），该模型基于llava架构，不仅在开源GUI理解benchmark下取得与前沿方案相近甚至更优的视觉理解效果。在GUI理解功能上同时支持Visual Grounding，单步指令执行的能力。后续我们会继续开发该模型，使其具备交互对话能力，完备GUI Agent功能。
 
@@ -34,10 +34,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/grounding_1.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/grounding_1.png?ref_type=heads">
     </td>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/grounding_2.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/grounding_2.png?ref_type=heads">
     </td>
 </tr>
 </table>
@@ -48,10 +48,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/ins_1.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/ins_1.png?ref_type=heads">
     </td>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/ins_2.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer-/raw/master/assets/ins_2.png?ref_type=heads">
     </td>
 </tr>
 </table>

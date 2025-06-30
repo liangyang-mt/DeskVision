@@ -6,12 +6,12 @@
 
 <div align="center">
 
-[\[💻Code\]](https://sh-code.mthreads.com/liang.yang/mt-gui)[\[📝Paper\]](https://arxiv.org/abs/2503.11170) [\[🤗Models\]](https://huggingface.co/caca9527/GUIExplorer)[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)  
+[\[💻Code\]](https://github.com/MooreThreads/GUIExplorer)[\[📝Paper\]](https://arxiv.org/abs/2503.11170) [\[🤗Models\]](https://huggingface.co/caca9527/GUIExplorer)[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)  
 
 </div>
 
 ## 🤗 Overview  
-![GUIExplorer](https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/overview.png?ref_type=heads){:height="60%" width="60%"}
+![GUIExplorer](https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/overview.png?ref_type=heads){:height="60%" width="60%"}
 
 🔥🔥🔥 We have open-sourced our self-developed GUI multimodal visual understanding model GUIExplorer and part of the DeskVision dataset used to train the model (the complete dataset is being compiled and will be provided later). The model is based on the llava architecture and not only achieves visual understanding results similar to or even better than those of cutting-edge solutions under the open source GUI understanding benchmark, but also supports Visual Grounding and the ability to execute single-step instructions in terms of GUI understanding functions. We will continue to develop the model in the future to enable it to have interactive dialogue capabilities and complete GUI Agent functions.
 
@@ -34,10 +34,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/grounding_1.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/grounding_1.png?ref_type=heads">
     </td>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/grounding_2.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/grounding_2.png?ref_type=heads">
     </td>
 </tr>
 </table>
@@ -48,10 +48,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/ins_1.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/ins_1.png?ref_type=heads">
     </td>
     <td width=50% style="border: none">
-        <img src="https://sh-code.mthreads.com/liang.yang/mt-gui/-/raw/master/assets/ins_2.png?ref_type=heads">
+        <img src="https://github.com/MooreThreads/GUIExplorer/-/raw/master/assets/ins_2.png?ref_type=heads">
     </td>
 </tr>
 </table>
