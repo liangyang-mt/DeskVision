@@ -11,7 +11,8 @@
 </div>
 
 ## 🤗 Overview  
-![GUIExplorer](https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png){:height="60%" width="60%"}
+
+<div align=center><img width="60%" height="60%" src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png"/></div>
 
 🔥🔥🔥 We have open-sourced our self-developed GUI multimodal visual understanding model GUIExplorer and part of the DeskVision dataset used to train the model (the complete dataset is being compiled and will be provided later). The model is based on the llava architecture and not only achieves visual understanding results similar to or even better than those of cutting-edge solutions under the open source GUI understanding benchmark, but also supports Visual Grounding and the ability to execute single-step instructions in terms of GUI understanding functions. We will continue to develop the model in the future to enable it to have interactive dialogue capabilities and complete GUI Agent functions.
 

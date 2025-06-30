@@ -11,7 +11,9 @@
 </div>
 
 ## 🤗 项目概述  
-![GUIExplorer](https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png){:height="60%" width="60%"}
+
+<div align=center><img width="60%" height="60%" src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png"/></div>
+
 
 🔥🔥🔥 我们开源了自研的GUI多模态视觉理解大模型GUIExplorer以及用于训练该模型的DeskVision部分数据集（完整数据集正在整理并给出），该模型基于llava架构，不仅在开源GUI理解benchmark下取得与前沿方案相近甚至更优的视觉理解效果。在GUI理解功能上同时支持Visual Grounding，单步指令执行的能力。后续我们会继续开发该模型，使其具备交互对话能力，完备GUI Agent功能。
 
