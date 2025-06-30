@@ -1,0 +1,9 @@
+学院课程
+AlphaCore Houdini高级特效制作
+MT GPU软件开发基础
+pytorch开发
+科学计算与物理仿真
+推荐
+全部课程
+基于MUSA的大模型开发实战
+musify应用
