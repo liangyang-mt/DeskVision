@@ -112,7 +112,7 @@ The demo provides several examples of "grounding" and "instruction".
 
 **1. DeskVision** 
 
-We have open-sourced the code for generating DeskVision data, which includes two tools, Detector and Captioner. For details on how to use them, see ```./scripts/DeskVision```. We have also open-sourced (part of) the DeskVision data generated based on these tools. Due to data legitimacy reasons, self-built image data is presented in URL format. For details of the data content, see [\[🤗Data\]](). More data will be added in the future. We also generate Region Captions for the open source Desktop complete image data of [OS-Atlas](https://osatlas.github.io/), and also open source the related annotations.
+We have open-sourced the code for generating DeskVision data, which includes two tools, Detector and Captioner. For details on how to use them, see ```./scripts/DeskVision```. We have also open-sourced (part of) the DeskVision data generated based on these tools. Due to data legitimacy reasons, self-built image data is presented in URL format. For details of the data content, see [\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision). More data will be added in the future. We also generate Region Captions for the open source Desktop complete image data of [OS-Atlas](https://osatlas.github.io/), and also open source the related annotations.
 
 **2. GUI Understanding Benchmarks**  
 
