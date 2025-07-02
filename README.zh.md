@@ -112,7 +112,7 @@ python demo.py
 
 **1. DeskVision** 
 
-我们开源了生成DeskVision数据的代码，其包含Detector和Captioner两个工具，具体使用方式详见```./scripts/DeskVision```。并且我们开源了基于这些工具下生成的DeskVision数据（部分），由于数据合法性原因，自建图片数据采用url方式呈现，具体数据内容详见[\[🤗Data\]]()，更多数据后续会持续补充。我们也针对[OS-Atlas](https://osatlas.github.io/)开源的Desktop完整图片数据进行Region Caption生成，并也将相关annotations进行开源。 
+我们开源了生成DeskVision数据的代码，其包含Detector和Captioner两个工具，具体使用方式详见```./scripts/DeskVision```。并且我们开源了基于这些工具下生成的DeskVision数据（部分），由于数据合法性原因，自建图片数据采用url方式呈现，具体数据内容详见[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)，更多数据后续会持续补充。我们也针对[OS-Atlas](https://osatlas.github.io/)开源的Desktop完整图片数据进行Region Caption生成，并也将相关annotations进行开源。 
 
 
 **2. GUI理解benchmarks**
