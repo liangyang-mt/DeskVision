@@ -142,7 +142,3 @@ We have open-sourced the code for generating DeskVision data, which includes two
 | OS-Atlas-Base  |     42.33         | 60.51       | 76.33        |   59.68      | 41.9        |      75.76       |
 | GUIExplorer  |     **54.60**         | **78.71**       | **88.51**        |   **82.56**      | **62.17**        |      **87.66**       |
 
-
-## 🙏🏻 Acknowledgements
-
-We are very grateful to [LLaVA-OneVision](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/), [OS-Atlas](https://osatlas.github.io/), [SeeClick](https://github.com/njucckevin/SeeClick) and other excellent open source work and datasets.
