@@ -142,26 +142,6 @@ We have open-sourced the code for generating DeskVision data, which includes two
 | OS-Atlas-Base  |     42.33         | 60.51       | 76.33        |   59.68      | 41.9        |      75.76       |
 | GUIExplorer  |     **54.60**         | **78.71**       | **88.51**        |   **82.56**      | **62.17**        |      **87.66**       |
 
-## Citation  
-
-If you use GUIExplorer or DeskVision datasets for your research, please cite our [\[📝Paper\]](https://arxiv.org/abs/2503.11170)：
-
-```bibtex
-@misc{xu2025deskvisionlargescaledesktop,
-      title={DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents}, 
-      author={Yibin Xu and Liang Yang and Hao Chen and Hua Wang and Zhi Chen and Yaohua Tang},
-      year={2025},
-      eprint={2503.11170},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.11170}, 
-}
-```
-
-
-## ⚖️ Disclaimer
-
-The open source code, models and datasets of this project are intended for academic research. We explicitly disclaim any responsibility for user-generated content. Users are fully responsible for their actions when using the models and related datasets. Project contributors have no legal relationship with users and do not assume any responsibility for their actions.
 
 ## 🙏🏻 Acknowledgements
 
