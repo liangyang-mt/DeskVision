@@ -144,27 +144,3 @@ python demo.py
 | GUIExplorer  |     **54.60**         | **78.71**       | **88.51**        |   **82.56**      | **62.17**        |      **87.66**       |
 
 
-## Citation
-
-如果你使用了我们的GUIExplorer或DeskVision数据集，麻烦引用我们的[\[📝Paper\]](https://arxiv.org/abs/2503.11170)：
-
-```bibtex
-@misc{xu2025deskvisionlargescaledesktop,
-      title={DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents}, 
-      author={Yibin Xu and Liang Yang and Hao Chen and Hua Wang and Zhi Chen and Yaohua Tang},
-      year={2025},
-      eprint={2503.11170},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.11170}, 
-}
-```
-
-
-## ⚖️ 声明
-
-该项目所开源的代码，模型及数据集旨在用于学术研究，我们明确不对用户生成的内容承担任何责任。用户对使用模型和相关数据集时的行为承担全部责任。项目贡献者与用户的行为没有法律关系，也不承担任何责任。
-
-## 🙏🏻 感谢
-非常感谢[LLaVA-OneVision](https://llava-vl.github.io/blog/2024-08-05-llava-onevision/), [OS-Atlas](https://osatlas.github.io/), [SeeClick](https://github.com/njucckevin/SeeClick)等优秀的开源工作及数据集。
-
