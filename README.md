@@ -2,7 +2,7 @@
 
 ## 🤗 Overview  
 
-<div align=center><img width="760" height="300" src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png"/></div>
+<div align=center><img width="760" height="300" src="https://anonymous.4open.science/r/DeskVision-044E/assets/overview.png"/></div>
 
 🔥🔥🔥 We have open-sourced our self-developed GUI multimodal visual understanding model GUIExplorer and the DeskVision dataset used to train the model. The model is based on the llava architecture and not only achieves visual understanding results similar to or even better than those of cutting-edge solutions under the open source GUI understanding benchmark, but also supports Visual Grounding and the ability to execute single-step instructions in terms of GUI understanding functions. We will continue to develop the model in the future to enable it to have interactive dialogue capabilities and complete GUI Agent functions.
 
