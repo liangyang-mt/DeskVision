@@ -1,13 +1,3 @@
-<p align="center">
-<a href="./README.zh.md">简体中文</a>|<a href="./README.md">English</a>
-</p>  
-
-<div align="center">
-
-[\[🤗DeskVision-Captioner\]](https://huggingface.co/DanHuang/DeskVision-Captioner/tree/main)
-
-</div>
-
 # DeskVision Data Automatic Generation Pipeline
 ## Environment Preparation
 ```shell
@@ -32,3 +22,6 @@ bash deploy.sh
 ```python
 python Captioner.py --detector_path 'Deskvision_detector.jsonl' --output_file 'Deskvision.jsonl'
 ```
+
+## Pretrained models
+We will release AutoCaptioner model in the huggingface.
