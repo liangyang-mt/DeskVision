@@ -95,7 +95,7 @@ We have open-sourced the code for generating DeskVision data, which includes two
 
 **2. GUI Understanding Benchmarks**  
 
-**a. [ScreenSpot](https://huggingface.co/datasets/rootsautomation/ScreenSpot)**  
+**a. ScreenSpot**  
 
 | Models      | Model Size | GUI Specific | Mobile Text | Mobile Icon/Widget | Desktop Text | Desktop Icon/Widget | Web Text | Web Icon/Widget | Average |
 |------------|------------|--------------|-------------|--------------------|--------------|---------------------|----------|-----------------|---------|
@@ -110,7 +110,7 @@ We have open-sourced the code for generating DeskVision data, which includes two
 | OS-Atlas-Base   | 7B         | ✅            | 93.4       | 72.93              | **91.75**        | 62.86               | **90.87**    | 74.27           | 82.47   |
 | GUIExplorer   | 7B         | ✅            | 89.01       | **77.29**              | 88.14        | **75.0**               | 82.61    | **81.55**           | **82.86**   |
 
-**b. [GUIEnv](https://huggingface.co/datasets/yiye2023/GUIEnv)**
+**b. GUIEnv**
 
 | Models      | Bbox2Text    |             | Text2Bbox    |              |              |              |
 |------------|--------------|-------------|--------------|--------------|--------------|--------------|
