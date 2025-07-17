@@ -1,30 +1,11 @@
 # DeskVision: Large Scale Desktop Region Captioning for Advanced GUI Agents
 
-<p align="center">
-<a href="./README.zh.md">简体中文</a>|<a href="./README.md">English</a>
-</p>  
-
-<div align="center">
-
-[\[💻Code\]](https://github.com/MooreThreads/GUIExplorer)[\[📝Paper\]](https://arxiv.org/abs/2503.11170) [\[🤗Models\]](https://huggingface.co/caca9527/GUIExplorer)[\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision)  
-
-</div>
-
 ## 🤗 Overview  
 
 <div align=center><img width="760" height="300" src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/overview.png"/></div>
 
-🔥🔥🔥 We have open-sourced our self-developed GUI multimodal visual understanding model GUIExplorer and part of the DeskVision dataset used to train the model (the complete dataset is being compiled and will be provided later). The model is based on the llava architecture and not only achieves visual understanding results similar to or even better than those of cutting-edge solutions under the open source GUI understanding benchmark, but also supports Visual Grounding and the ability to execute single-step instructions in terms of GUI understanding functions. We will continue to develop the model in the future to enable it to have interactive dialogue capabilities and complete GUI Agent functions.
+🔥🔥🔥 We have open-sourced our self-developed GUI multimodal visual understanding model GUIExplorer and the DeskVision dataset used to train the model. The model is based on the llava architecture and not only achieves visual understanding results similar to or even better than those of cutting-edge solutions under the open source GUI understanding benchmark, but also supports Visual Grounding and the ability to execute single-step instructions in terms of GUI understanding functions. We will continue to develop the model in the future to enable it to have interactive dialogue capabilities and complete GUI Agent functions.
 
-## 📝 Release Plans
-
-- [x] Inference scripts
-- [x] Pre-trained model for GUI understanding (7B)
-- [x] Gradio demo (supporting specified GUI understanding functions)  
-- [x] Technical report or paper 
-- [x] Training data  
-- [ ] Complete multi-step execution Agent model of complex instructions   
-- [ ] Training scripts
 
 ## 🎞️ Examples 
 
@@ -35,10 +16,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/grounding_1.png">
+        <img src="https://anonymous.4open.science/r/DeskVision-044E/assets/grounding_1.png">
     </td>
     <td width=50% style="border: none">
-        <img src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/grounding_2.png">
+        <img src="https://anonymous.4open.science/r/DeskVision-044E/assets/grounding_2.png">
     </td>
 </tr>
 </table>
@@ -49,10 +30,10 @@
 
 <tr>
     <td width=50% style="border: none">
-        <img src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/ins_1.png>
+        <img src="https://anonymous.4open.science/r/DeskVision-044E/assets/ins_1.png">
     </td>
     <td width=50% style="border: none">
-        <img src="https://github.com/MooreThreads/GUIExplorer/blob/main/assets/ins_2.png">
+        <img src="https://anonymous.4open.science/r/DeskVision-044E/assets/ins_2.png">
     </td>
 </tr>
 </table>
@@ -65,8 +46,6 @@
 **1. Build Environtment**
 
 ```bash  
-git clone https://github.com/MooreThreads/GUIExplorer
-cd GUIExplorer
 conda create -n llava python=3.10 -y
 conda activate llava
 pip install --upgrade pip  # Enable PEP 660 support.
@@ -77,7 +56,7 @@ pip install -e ".[train]"
 
 **2. Download weights**
 
-For open source weights, please visit [huggingface](https://huggingface.co/caca9527/GUIExplorer) to download, and place the downloaded model weights in the `./pretrained_weights` folder. Currently, 7B pre-trained models are provided.
+We will release multimodal visual understanding model GUIExplorer in the huggingface.
 
 ## 🚀 Inference   
 **1. Inference commands**
@@ -112,7 +91,7 @@ The demo provides several examples of "grounding" and "instruction".
 
 **1. DeskVision** 
 
-We have open-sourced the code for generating DeskVision data, which includes two tools, Detector and Captioner. For details on how to use them, see ```./scripts/DeskVision```. We have also open-sourced (part of) the DeskVision data generated based on these tools. Due to data legitimacy reasons, self-built image data is presented in URL format. For details of the data content, see [\[🤗Data\]](https://huggingface.co/datasets/caca9527/DeskVision). More data will be added in the future. We also generate Region Captions for the open source Desktop complete image data of [OS-Atlas](https://osatlas.github.io/), and also open source the related annotations.
+We have open-sourced the code for generating DeskVision data, which includes two tools, Detector and Captioner. For details on how to use them, see ```./scripts/DeskVision```. We have also open-sourced (part of) the DeskVision data generated based on these tools. Due to data legitimacy reasons, self-built image data is presented in URL format.
 
 **2. GUI Understanding Benchmarks**  
 
